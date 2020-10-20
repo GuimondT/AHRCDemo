@@ -2,8 +2,12 @@
 # HelloWorld.r
 ##############
 
+library(tidyverse)
 a<-34
 b<-28
 a+b
 
-#Try doing some real work sometime
+
+ggplot(data=cars,aes(x=speed,y=distance)) + geom_point()
+
+
