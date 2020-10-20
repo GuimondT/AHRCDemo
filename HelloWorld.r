@@ -8,6 +8,6 @@ b<-28
 a+b
 
 
-ggplot(data=cars,aes(x=speed,y=distance)) + geom_point()
+ggplot(data=cars,aes(x=speed,y=dist)) + geom_point()
 
 
